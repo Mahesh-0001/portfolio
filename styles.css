@@ -1,0 +1,301 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #9b59b6; /* Purple color */
+}
+
+a:hover {
+  color: #8e44ad; /* Darker purple on hover */
+}
+
+/* Header */
+header {
+  background-color: #8e44ad; /* Purple background */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+header h1 {
+  font-size: 3rem;
+  letter-spacing: 1.5px;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Home Section */
+#home {
+  background-color: #9b59b6; /* Light purple background */
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+#home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 1.2rem;
+}
+
+/* About Me Section */
+#about {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project h3 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.project a {
+  color: #9b59b6;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  color: #8e44ad;
+  text-decoration: underline;
+}
+
+/* Skills Section */
+#skills {
+  padding: 40px 20px;
+  background-color: #9b59b6; /* Purple background */
+  color: white;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Certifications Section */
+#certifications {
+  padding: 40px 20px;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+}
+
+#certifications h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Internship Section */
+#internship {
+  padding: 40px 20px;
+  background-color: #9b59b6; /* Purple background */
+  color: white;
+  text-align: center;
+}
+
+#internship h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 40px 20px;
+  background-color: white;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border: 2px solid #9b59b6; /* Purple border when focused */
+}
+
+form button {
+  background-color: #9b59b6; /* Purple button */
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #8e44ad; /* Darker purple on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #8e44ad; /* Purple footer */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  section {
+    padding: 30px 15px;
+  }
+
+  .project {
+    margin: 10px 0;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form input,
+  form textarea {
+    font-size: 1rem;
+  }
+
+  form button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 20px 10px;
+  }
+
+  .project {
+    padding: 15px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 0.9rem;
+  }
+
+  form button {
+    font-size: 1rem;
+  }
+}
